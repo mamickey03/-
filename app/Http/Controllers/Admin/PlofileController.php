@@ -29,5 +29,3 @@ class PlofileController extends Controller
     }
 }
 
-Route::get ('admin/profile/create','Admin\ProfileController@add');
-Route::get ('admin/profile/edit','Admin\ProfileController@edit');
