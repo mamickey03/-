@@ -24,7 +24,6 @@ Route::post('admin/profile/create', 'Admin\ProfileController@create');
 
 Route::get('admin/profile/edit', 'Admin\ProfileController@edit')->middleware('auth');
 Route::post('admin/profile/edit', 'Admin\ProfileController@update');
-Route::get('admin/profile/profile', 'Admin\ProfileController@edit')->middleware('auth');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
